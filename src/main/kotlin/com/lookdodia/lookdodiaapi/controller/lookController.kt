@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController
 class LookController {
 
     private val looks = listOf(
-        Look(1, "Look Casual", "Jeans + Camiseta"),
-        Look(2, "Look Trabalho", "Social completo")
+        Look(1, "Casual", "Jeans + Camiseta"),
+        Look(2, "Trabalho", "Social completo")
     )
 
     @GetMapping
@@ -19,3 +19,4 @@ class LookController {
         return looks
     }
 }
+
